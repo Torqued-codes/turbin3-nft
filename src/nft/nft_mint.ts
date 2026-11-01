@@ -25,7 +25,7 @@ umi.use(mplCore());
       "https://gateway.irys.xyz/BihKZnhMCvxN3i34cv25eEyFgUvBVGJQn1Gp11D4LxEi ";
     const asset = generateSigner(umi);
 
-    //add you nft name and metadata uri
+    
     // const tx = await create()
 
     // const signature = base58.deserialize(tx.signature)[0];
@@ -35,3 +35,4 @@ umi.use(mplCore());
     console.log(`errior ${e}`);
   }
 })();
+
