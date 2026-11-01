@@ -25,14 +25,20 @@ umi.use(mplCore());
       "https://gateway.irys.xyz/BihKZnhMCvxN3i34cv25eEyFgUvBVGJQn1Gp11D4LxEi ";
     const asset = generateSigner(umi);
 
-    
-    // const tx = await create()
+    const tx = await create(umi, {
+      asset: asset,
+      name : "TORQ",
+      uri : metadataUri.trim()
+    }).sendAndConfirm(umi);
 
-    // const signature = base58.deserialize(tx.signature)[0];
+    const signature = base58.deserialize(tx.signature)[0];
 
-    // console.log(`signature ${signature} , asset : ${asset.publicKey}`);
+    console.log(`signature ${signature} , asset : ${asset.publicKey}`);
+
+    console.log("NFT Minted Successfully");
+    console.log('Signature:', signature);
   } catch (e) {
-    console.log(`errior ${e}`);
+    console.log(`error ${e}`);
   }
 })();
 
