@@ -83,6 +83,10 @@ Executed decentralized storage uploads and Core NFT minting using Metaplex Umi:
 - **NFT Asset Address:** `EKaBt5wzS5adhxgj15rpbL5jT4qJQyDiPKiQMMdTQFVV`
 - **Mint Transaction Signature:** `G8TLq2oWnEPhqfMxCWKPjXv8VgUJwAK9CpHQqaSgkUGDKRZsSverkRDJMQu1o2k3m6mTACx9QpGdswGepNHddcA`
 
+<img width="1905" height="943" alt="image" src="https://github.com/user-attachments/assets/d3443a06-26a8-4579-89b4-4e48f2d9595e" />
+<img width="1902" height="431" alt="image" src="https://github.com/user-attachments/assets/4c0d081e-0ea9-4cc0-ad2f-15a1a754781a" />
+
+
 ## 🔍 Detailed On-Chain Account Verification Breakdown
 
 Analysis of the minted NFT asset on Solscan / Solana Explorer:
@@ -91,6 +95,8 @@ Analysis of the minted NFT asset on Solscan / Solana Explorer:
 - **Owner Program:** `CoRE111111111111111111111111111111111111111` (Official Metaplex Core Program ID `CoREEN...ZNhX7d`, proving standard compliance)
 - **Instruction Executed:** `createV2` (Confirms exact MPL Core mint instruction executed on-chain)
 - **Payer / Signer:** `5Z4StfMBzEa6gp8HxF7dYoVLwn218aAgyS4U7NjRHgwX` (Matches local wallet address derived from `devnet-wallet.json`)
+
+<img width="1907" height="748" alt="image" src="https://github.com/user-attachments/assets/3043038d-138c-4f74-a234-072821826c64" />
 
 ## 🔗 Verification Links
 
